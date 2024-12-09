@@ -1,3 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() { return 0; }
+int main(int argc, char *argv[]) {
+  if (argc != 1)
+  {
+    printf("Provide the to-be encrypted file");
+  }
+  else
+  {
+
+  }
+}
