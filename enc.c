@@ -16,9 +16,9 @@ void encrypt(FILE* secret_file, FILE* encrypted_file, FILE* key_file)
 }
 
 int main(int argc, char *argv[]) {
-  if (argc != 1)
+  if (argc != 2)
   {
-    printf("Provide the to-be encrypted file");
+    printf("Provide the to-be encrypted file\n");
   }
   else
   {
