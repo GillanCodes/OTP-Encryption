@@ -8,6 +8,10 @@ int main(int argc, char *argv[]) {
   }
   else
   {
+		char* secret_file_name = argv[1];
+		FILE* secret_file = fopen(secret_file_name, "r");
+		FILE* encrypted_file = fopen("crypt.out", "w");
+		FILE* key_file = fopen("key.out", "w");
 
   }
 }
